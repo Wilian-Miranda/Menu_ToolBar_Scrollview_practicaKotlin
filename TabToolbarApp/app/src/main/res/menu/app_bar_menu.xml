@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/icon_home"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/menu_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/icon_tab"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_Pagos"
+        android:title="Pagos"
+        android:icon="@drawable/icon_tab"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/menu_newActivity"
+        android:title="Nueva Actividad"
+        android:icon="@drawable/icon_tab"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/menu_cerrar"
+        android:title="Cerrar"
+        android:icon="@drawable/icon_tab"
+        app:showAsAction="never">
+    </item>
+</menu>
